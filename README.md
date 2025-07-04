@@ -1,33 +1,16 @@
-```
-   ____                   ____                  ____   
-  / __ \____  ___  ____  / __ \___  _________ _/ / /   
- / / / / __ \/ _ \/ __ \/ /_/ / _ \/ ___/ __ `/ / /    
-/ /_/ / /_/ /  __/ / / / _, _/  __/ /__/ /_/ / / /     
-\____/ .___/\___/_/ /_/_/ |_|\___/\___/\__,_/_/_/      
-    /_/                                                                                                                         
-```
-**Enjoy this project?** Show your support by starring it! ⭐️ Thank you!
 
-Join our [Discord](https://discord.gg/RzvCYRgUkx) and/or [Telegram](https://t.me/+5DULWTesqUYwYjY0) community to stay informed of updates!
 
-# Take Control of Your Digital Memory
+# What is RECollect?
 
-OpenRecall is a fully open-source, privacy-first alternative to proprietary solutions like Microsoft's Windows Recall or Limitless' Rewind.ai. With OpenRecall, you can easily access your digital history, enhancing your memory and productivity without compromising your privacy.
+RECollect is a project forked from OpenRecall, which is an open-source alternative for Windows Recall or other closed-source substitutes. It snapshots the user's screen at short, regular intervals and stores them, allowing the user to navigate through them later through AI-augmented image recognition. RECollect aims to act as a better alternative for Windows Recall which requires Copilot+ PC certified hardwares.
 
-## What does it do?
+## How does it differ from others?
 
-OpenRecall captures your digital history through regularly taken snapshots, which are essentially screenshots. The text and images within these screenshots are analyzed and made searchable, allowing you to quickly find specific information by typing relevant keywords into OpenRecall. You can also manually scroll back through your history to revisit past activities.
+Windows Recall, which is the service that this project aims to replace, has specific hardware requirements as mentioned above. It is only provided for PCs equipped with NPU with 40 TOPS or above. This results in only certain processors being able to use the service, such as Intel's Lunar Lake(Core Ultra 200V series), AMD's RYZEN AI 300 series(Strix Point/Krackan Point/Strix Halo) and Qualcomm's Snapdragon X series. RECollect aims to expand the hardware support, supporting CPU/GPU usage and even NPU, which has performance of less than 40 TOPS such as NPU 3 in Intel's Meteor Lake(Core Ultra Series 1) and Arrow Lake-H/HX(Core Ultra 200H/HX series). By supporting different hardware acceleration types, RECollect is able to allow the users to choose freely between the benefits provided by different hardware types, such as versatility of CPU, performance of GPU or efficiency of NPU.
 
-https://github.com/openrecall/openrecall/assets/16676419/cfc579cb-165b-43e4-9325-9160da6487d2
+## RECollect's features
 
-## Why Choose OpenRecall?
-
-OpenRecall offers several key advantages over closed-source alternatives:
-
-- **Transparency**: OpenRecall is 100% open-source, allowing you to audit the source code for potential backdoors or privacy-invading features.
-- **Cross-platform Support**: OpenRecall works on Windows, macOS, and Linux, giving you the freedom to use it on your preferred operating system.
-- **Privacy-focused**: Your data is stored locally on your device, no internet connection or cloud is required. In addition, you have the option to encrypt the data on a removable disk for added security, read how in our [guide](docs/encryption.md) here. 
-- **Hardware Compatibility**: OpenRecall is designed to work with a [wide range of hardware](docs/hardware.md), unlike proprietary solutions that may require specific certified devices.
+RECollect utilizes DirectML for inference, providing compatibility for various hardware venders. However, for performance, this project will add support for CUDA/OpenVINO/RYZEN AI acceleration. RECollect also stores all snapshots locally, providing safety in the data management. This project also uses local AI implementation for OCR function.
 
 <p align="center">
   <a href="https://twitter.com/elonmusk/status/1792690964672450971" target="_blank">
