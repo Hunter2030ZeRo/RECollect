@@ -90,9 +90,9 @@ Note: If you specified a custom storage path at any time using the `--storage-pa
 As an open-source project, we welcome contributions from the community. If you'd like to help improve OpenRecall, please submit a pull request or open an issue on our GitHub repository.
 
 ## Contact the maintainers
-mail@datatalk.be
+mk2cvmk2cv@gmail.com
 
 ## License
 
-OpenRecall is released under the [AGPLv3](https://opensource.org/licenses/AGPL-3.0), ensuring that it remains open and accessible to everyone.
+RECollect is released under the [AGPLv3](https://opensource.org/licenses/AGPL-3.0), ensuring that it remains open and accessible to everyone.
 
