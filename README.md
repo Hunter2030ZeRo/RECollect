@@ -12,22 +12,12 @@ Windows Recall, which is the service that this project aims to replace, has spec
 
 RECollect utilizes DirectML for inference, providing compatibility for various hardware venders. However, for performance, this project will add support for CUDA/OpenVINO/RYZEN AI acceleration. RECollect also stores all snapshots locally, providing safety in the data management. This project also uses local AI implementation for OCR function.
 
-<p align="center">
-  <a href="https://twitter.com/elonmusk/status/1792690964672450971" target="_blank">
-    <img src="images/black_mirror.png" alt="Elon Musk Tweet" width="400">
-  </a>
-</p>
-
 ## Features
 
 - **Time Travel**: Revisit and explore your past digital activities seamlessly across Windows, macOS, or Linux.
 - **Local-First AI**: OpenRecall harnesses the power of local AI processing to keep your data private and secure.
 - **Semantic Search**: Advanced local OCR interprets your history, providing robust semantic search capabilities.
 - **Full Control Over Storage**: Your data is stored locally, giving you complete control over its management and security.
-
-<p align="center">
-  <img src="images/lisa_rewind.webp" alt="Lisa Rewind" width="400">
-</p>
 
 
 ## Comparison
