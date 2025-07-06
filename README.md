@@ -4,6 +4,8 @@
 
 RECollect is a project forked from OpenRecall, which is an open-source alternative for Windows Recall or other closed-source substitutes. It snapshots the user's screen at short, regular intervals and stores them, allowing the user to navigate through them later through AI-augmented image recognition. RECollect aims to act as a better alternative for Windows Recall which requires Copilot+ PC certified hardwares.
 
+DISCLAIMER: RECollect is designed and developed for MY OWN USE- Therefore, the entire system will be optimized for my hardware and software environment. This is a personal project, and it may not support wide range of hardwares and softwares. However, feel free to add support for such platforms if you feel there is need to. 
+
 ## How does it differ from others?
 
 Windows Recall, which is the service that this project aims to replace, has specific hardware requirements as mentioned above. It is only provided for PCs equipped with NPU with 40 TOPS or above. This results in only certain processors being able to use the service, such as Intel's Lunar Lake(Core Ultra 200V series), AMD's RYZEN AI 300 series(Strix Point/Krackan Point/Strix Halo) and Qualcomm's Snapdragon X series. RECollect aims to expand the hardware support, supporting CPU/GPU usage and even NPU, which has performance of less than 40 TOPS such as NPU 3 in Intel's Meteor Lake(Core Ultra Series 1) and Arrow Lake-H/HX(Core Ultra 200H/HX series). By supporting different hardware acceleration types, RECollect is able to allow the users to choose freely between the benefits provided by different hardware types, such as versatility of CPU, performance of GPU or efficiency of NPU.
