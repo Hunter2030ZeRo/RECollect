@@ -24,13 +24,13 @@ RECollect utilizes DirectML for inference, providing compatibility for various h
 
 
 
-| Feature          | OpenRecall                    | Windows Recall                                  | Rewind.ai                              |
+| Feature          | RECollect                     | Windows Recall                                  | OpenRecall                              |
 |------------------|-------------------------------|--------------------------------------------------|----------------------------------------|
-| Transparency     | Open-source                   | Closed-source                                    | Closed-source                          |
-| Supported Hardware | All                         | Copilot+ certified Windows hardware              | M1/M2 Apple Silicon                    |
-| OS Support       | Windows, macOS, Linux         | Windows                                          | macOS                                  |
-| Privacy          | On-device, self-hosted        | Microsoft's privacy policy applies               | Connected to ChatGPT                   |
-| Cost             | Free                          | Part of Windows 11 (requires specialized hardware) | Monthly subscription                   |
+| Transparency     | Open-source                   | Closed-source                                    | Open-source                            |
+| Supported Hardware | All                         | Copilot+ certified Windows hardware              | All                                    |
+| OS Support       | Windows                       | Windows                                          | Windows, macOS, Linux                  |
+| Privacy          | On-device, self-hosted        | Microsoft's privacy policy applies               | On-device, self-hosted                 |
+| Cost             | Free                          | Part of Windows 11 (requires specialized hardware) | Free                                 |
 
 ## Quick links
 - [Roadmap](https://github.com/orgs/openrecall/projects/2) and you can [vote for your favorite features](https://github.com/openrecall/openrecall/discussions/9#discussion-6775473)
@@ -40,7 +40,7 @@ RECollect utilizes DirectML for inference, providing compatibility for various h
 
 ### Prerequisites
 - Python 3.11
-- MacOSX/Windows/Linux
+- Windows
 - Git
 
 To install:
