@@ -27,7 +27,7 @@ RECollect utilizes DirectML for inference, providing compatibility for various h
 | Feature          | RECollect                     | Windows Recall                                  | OpenRecall                              |
 |------------------|-------------------------------|--------------------------------------------------|----------------------------------------|
 | Transparency     | Open-source                   | Closed-source                                    | Open-source                            |
-| Supported Hardware | All                         | Copilot+ certified Windows hardware              | All                                    |
+| Supported Hardware | All(Supports descrete hardware acceleration)                         | Copilot+ certified Windows hardware              | All                                    |
 | OS Support       | Windows                       | Windows                                          | Windows, macOS, Linux                  |
 | Privacy          | On-device, self-hosted        | Microsoft's privacy policy applies               | On-device, self-hosted                 |
 | Cost             | Free                          | Part of Windows 11 (requires specialized hardware) | Free                                 |
